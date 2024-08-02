@@ -9,7 +9,7 @@ path = open('D_Strange-Girl_Meets_Boy_Penguin_Readers-1-min.pdf', 'rb')
 pdfReader = PyPDF2.PdfFileReader(path) 
 
 # the page with which you want to start 
-# this will read the page of 5th page. 
+# this will read the page of 6th page. 
 from_page = pdfReader.getPage(5) 
 
 # extracting the text from the PDF 
